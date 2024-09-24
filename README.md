@@ -10,3 +10,5 @@ My youtube Channel :point_right: **[Goshyost](https://www.youtube.com/@Goshyost)
 > [!NOTE]
 > There is NOT every code of my Youtube videos because I lost the original project, but I will try to remake or even update them.
 > Also you may notice there are slight changes in the handler between some commands
+
+![image](https://github.com/user-attachments/assets/30aca3d2-f0e2-4736-b134-d36e87e8c54f)
