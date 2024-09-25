@@ -19,10 +19,11 @@ module.exports = {
 
     execute(client, message, args){
 
+        if(!message.member.permissions.has("Administrator")) return message.channel.send({ content: "Debes tener permisos de Administrador para usar este comando" })
+      
         if(args[0]) return message.channel.send({ content: "Debes especificar el prefijo" })
 
         setprefix.establecer(message.guild.id, args[0])
-        if(!message.member.permissions.has("Administrator")) return message.channel.send({ content: "Debes tener permisos de administrador para usar este comando" })
       
     }
 }
